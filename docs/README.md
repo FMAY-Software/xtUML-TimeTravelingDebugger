@@ -52,7 +52,7 @@ March 9th of 2018
 ## Demonstrations  
 Video demonstrating time traveling debugger.  
 
-<a id="Time Traveling Debugger"></a>[Time Traveling Debugger]()  
+<a id="Time Traveling Debugger"></a>[Time Traveling Debugger](https://youtu.be/7VRcZoqGDfM)  
 
 ## Pledging
 
