@@ -47,7 +47,7 @@ This project has some of the work complete.
 
 Estimated time to delivery:  
 
-March 9th of 2018  
+March 21th of 2018  
 
 ## Demonstrations  
 Video demonstrating time traveling debugger.  
