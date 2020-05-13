@@ -1,0 +1,91 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("cd737bca-0583-4325-b09c-6e30e9229efb",
+	'Session',
+	1,
+	'Session',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("0656bf54-9c52-42ef-8eae-f00334a7f997",
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_BATTR
+	VALUES ("0656bf54-9c52-42ef-8eae-f00334a7f997",
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_ATTR
+	VALUES ("0656bf54-9c52-42ef-8eae-f00334a7f997",
+	"cd737bca-0583-4325-b09c-6e30e9229efb",
+	"e65856cc-1e13-4f48-8cf0-eba6cdd8b5d0",
+	'startTime',
+	'',
+	'',
+	'startTime',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000010",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("ba2b1d4f-690c-48ed-ae71-b85dc3aa0e97",
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_BATTR
+	VALUES ("ba2b1d4f-690c-48ed-ae71-b85dc3aa0e97",
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_ATTR
+	VALUES ("ba2b1d4f-690c-48ed-ae71-b85dc3aa0e97",
+	"cd737bca-0583-4325-b09c-6e30e9229efb",
+	"0656bf54-9c52-42ef-8eae-f00334a7f997",
+	'endTime',
+	'',
+	'',
+	'endTime',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000010",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("e65856cc-1e13-4f48-8cf0-eba6cdd8b5d0",
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_BATTR
+	VALUES ("e65856cc-1e13-4f48-8cf0-eba6cdd8b5d0",
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_ATTR
+	VALUES ("e65856cc-1e13-4f48-8cf0-eba6cdd8b5d0",
+	"cd737bca-0583-4325-b09c-6e30e9229efb",
+	"00000000-0000-0000-0000-000000000000",
+	'Session_ID',
+	'',
+	'',
+	'Session_ID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_OIDA
+	VALUES ("e65856cc-1e13-4f48-8cf0-eba6cdd8b5d0",
+	"cd737bca-0583-4325-b09c-6e30e9229efb",
+	0,
+	'Session_ID');
+INSERT INTO O_ID
+	VALUES (1,
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO O_ID
+	VALUES (2,
+	"cd737bca-0583-4325-b09c-6e30e9229efb");
+INSERT INTO PE_PE
+	VALUES ("cd737bca-0583-4325-b09c-6e30e9229efb",
+	1,
+	"1afc9a54-1cfa-467b-9920-5b0769fd8213",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("1afc9a54-1cfa-467b-9920-5b0769fd8213",
+	"f4920441-13bb-4f35-b187-926cb9971dd7",
+	"f4920441-13bb-4f35-b187-926cb9971dd7",
+	'History',
+	'',
+	0,
+	'../History.xtuml');

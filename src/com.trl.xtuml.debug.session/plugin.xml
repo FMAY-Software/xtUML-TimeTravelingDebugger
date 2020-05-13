@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="com.trl.xtuml.debug.session.actions"
+         name="xtUML Execution Actions"
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.eclipse.debug.ui.category.run"
+            defaultHandler="com.trl.xtuml.debug.session.commands.actions.FastForwardHandler"
+            description="Fast foward one statement"
+            id="com.trl.xtuml.debug.session.commands.FastForward"
+            name="Fast Forward">
+      </command>
+      <command
+            categoryId="org.eclipse.debug.ui.category.run"
+            defaultHandler="com.trl.xtuml.debug.session.commands.actions.FullFastForwardHandler"
+            description="Fast forward until breakpoint"
+            id="com.trl.xtuml.debug.session.commands.FullFastForward"
+            name="Full Fast Forward">
+      </command>
+      <command
+            categoryId="org.eclipse.debug.ui.category.run"
+            defaultHandler="com.trl.xtuml.debug.session.commands.actions.RewindHandler"
+            description="Rewind one statement"
+            id="com.trl.xtuml.debug.session.commands.Rewind"
+            name="Rewind">
+      </command>
+      <command
+            categoryId="org.eclipse.debug.ui.category.run"
+            defaultHandler="com.trl.xtuml.debug.session.commands.actions.FullRewindHandler"
+            description="Rewind until breakpoint"
+            id="com.trl.xtuml.debug.session.commands.FullRewind"
+            name="Full Rewind">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.trl.xtuml.debug.session.debugActionSet"
+            label="xtUML Replay Actions"
+            visible="false">
+         <action
+               class="com.trl.xtuml.debug.session.ui.commands.actions.FullFastForwardActionDelegate"
+               definitionId="com.trl.xtuml.debug.session.commands.FullFastForward"
+               disabledIcon="icons/disabled/media-step-forward.png"
+               icon="icons/media-step-forward.png"
+               id="com.trl.xtuml.debug.session.actions.FullFastForward"
+               label="Full Fast Forward"
+               menubarPath="org.eclipse.ui.run/stepOverGroup"
+               state="false"
+               style="push"
+               toolbarPath="org.eclipse.debug.ui.main.toolbar/stepOverGroup">
+         </action>
+         <action
+               class="com.trl.xtuml.debug.session.ui.commands.actions.FastForwardActionDelegate"
+               definitionId="com.trl.xtuml.debug.session.commands.FastForward"
+               disabledIcon="icons/disabled/media-skip-forward.png"
+               icon="icons/media-skip-forward.png"
+               id="com.trl.xtuml.debug.session.actions.FastForward"
+               label="Fast Forward"
+               menubarPath="org.eclipse.ui.run/stepOverGroup"
+               state="false"
+               style="push"
+               toolbarPath="org.eclipse.debug.ui.main.toolbar/stepOverGroup">
+         </action>
+         <action
+               class="com.trl.xtuml.debug.session.ui.commands.actions.RewindActionDelegate"
+               definitionId="com.trl.xtuml.debug.session.commands.Rewind"
+               disabledIcon="icons/disabled/media-skip-backward.png"
+               helpContextId="org.eclipse.debug.ui.drop_to_frame_action_context"
+               icon="icons/media-skip-backward.png"
+               id="com.trl.xtuml.debug.session.actions.Rewind"
+               label="Rewind"
+               menubarPath="org.eclipse.ui.run/stepGroup"
+               toolbarPath="org.eclipse.debug.ui.main.toolbar/threadGroup">
+         </action>
+         <action
+               class="com.trl.xtuml.debug.session.ui.commands.actions.FullRewindActionDelegate"
+               definitionId="com.trl.xtuml.debug.session.commands.FullRewind"
+               disabledIcon="icons/disabled/media-step-backward.png"
+               icon="icons/media-step-backward.png"
+               id="com.trl.xtuml.debug.session.actions.FullRewind"
+               label="Full Rewind"
+               menubarPath="org.eclipse.ui.run/stepGroup"
+               style="push"
+               toolbarPath="org.eclipse.debug.ui.main.toolbar/threadGroup">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.xtuml.bp.debug.ui.dropToFrameControl">
+      <control
+            dropToFrameControl="com.trl.xtuml.debug.session.control.DropToFrameControl">
+      </control>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.trl.xtuml.debug.session.Activator">
+      </startup>
+   </extension>
+</plugin>
