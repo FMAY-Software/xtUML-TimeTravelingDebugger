@@ -1,0 +1,87 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("f292e8e9-437c-40a0-91c7-f27b383bf709",
+	"f4920441-13bb-4f35-b187-926cb9971dd7",
+	"f4920441-13bb-4f35-b187-926cb9971dd7",
+	'Datatypes',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("ee0457b2-ce0d-424d-9fc8-6f9d156f13a9",
+	112,
+	"f292e8e9-437c-40a0-91c7-f27b383bf709",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	200,
+	150,
+	0,
+	'',
+	'com.trl.xtuml.debug.session::Datatypes');
+INSERT INTO GD_GE
+	VALUES ("da2ab238-8126-4620-b8ff-f63ed27329df",
+	"ee0457b2-ce0d-424d-9fc8-6f9d156f13a9",
+	"660891a6-d2fd-439c-bbef-82d56304e1a3",
+	51,
+	0,
+	'com.trl.xtuml.debug.session::Datatypes::Transaction');
+INSERT INTO GD_SHP
+	VALUES ("da2ab238-8126-4620-b8ff-f63ed27329df");
+INSERT INTO GD_NCS
+	VALUES ("da2ab238-8126-4620-b8ff-f63ed27329df");
+INSERT INTO DIM_ND
+	VALUES (200.000000,
+	150.000000,
+	"da2ab238-8126-4620-b8ff-f63ed27329df");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"da2ab238-8126-4620-b8ff-f63ed27329df",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("da2ab238-8126-4620-b8ff-f63ed27329df",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("ee0457b2-ce0d-424d-9fc8-6f9d156f13a9",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_DT
+	VALUES ("660891a6-d2fd-439c-bbef-82d56304e1a3",
+	"00000000-0000-0000-0000-000000000000",
+	'Transaction',
+	'',
+	'');
+INSERT INTO S_UDT
+	VALUES ("660891a6-d2fd-439c-bbef-82d56304e1a3",
+	"ba5eda7a-def5-0000-0000-00000000000c",
+	0,
+	'');
+INSERT INTO PE_PE
+	VALUES ("660891a6-d2fd-439c-bbef-82d56304e1a3",
+	1,
+	"f292e8e9-437c-40a0-91c7-f27b383bf709",
+	"00000000-0000-0000-0000-000000000000",
+	3);
+INSERT INTO PE_PE
+	VALUES ("f292e8e9-437c-40a0-91c7-f27b383bf709",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("f4920441-13bb-4f35-b187-926cb9971dd7",
+	'com.trl.xtuml.debug.session',
+	1,
+	'../com.trl.xtuml.debug.session.xtuml');

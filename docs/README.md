@@ -47,16 +47,16 @@ This project has some of the work complete.
 
 Estimated time to delivery:  
 
-March 9th of 2018  
+March 21th of 2018  
 
 ## Demonstrations  
 Video demonstrating time traveling debugger.  
 
-<a id="Time Traveling Debugger"></a>[Time Traveling Debugger]()  
+<a id="Time Traveling Debugger"></a>[Time Traveling Debugger](https://youtu.be/7VRcZoqGDfM)  
 
 ## Pledging
 
-This project uses the [Pledge Model](https://fmaysoftware.wordpress.com/pledging-model/) and has a target of 65,000 USD.  
+This project uses the [Pledge Model](https://fmaysoftware.wordpress.com/pledging-model/) and has a target of ? USD.  
 
 ### Pledge to this project
 Send an e-mail to [FMAY](mailto:travis.london@gmail.com) to pledge.  
