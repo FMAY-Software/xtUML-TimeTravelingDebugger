@@ -1,5 +1,10 @@
 {
-  "owner": "Travis London",
+  "owner": {
+    "first_name":"Travis",
+    "last_name":"London",
+    "email":"travis.london@fmay.net",
+    "phone": "5203730727"
+  },
   "email": "travis.london@gmail.com",
   "name": "xtUML: Time Traveling Debugger",
   "description": "This project brings functionality to xtUML verify that will allow traveling through debugging history.  Actions are added for rewind, full rewind, fast-forward and full fast-forward.  Breakpoints are considered during travel.  Debugging states are maintained for all threads under a single launch even across inter-component communication.",
