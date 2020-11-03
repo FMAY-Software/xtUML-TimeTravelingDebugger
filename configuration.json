@@ -18,13 +18,15 @@
 		"url": "https://youtu.be/7VRcZoqGDfM"
 	},
 	"pledge_target": "72000",
-	"pledged": "100",
+	"pledged": "12100",
 	"home": "https://github.com/FMAY-Software/xtUML-TimeTravelingDebugger",
 	"repository_name": "xtUML-TimeTravelingDebugger",
 	"pledgors": [
 		{
-			"id": "Anonymous",
-			"pledged": "100"
+			"id": "Travis London",
+			"contact": "travis.london@onefact.net",
+			"company": "FMAY Software",
+			"pledged": "12000"
 		}
 	]
 }
