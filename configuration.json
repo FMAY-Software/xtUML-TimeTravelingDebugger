@@ -1,1 +1,24 @@
-{"owner":{"first_name":"FMAY-Incubator","last_name":"","email":"travis.london@fmay.net","phone":"5203730727"},"email":"travis.london@gmail.com","name":"xtUML: Time Traveling Debugger","description":"This project brings functionality to xtUML verify that will allow traveling through debugging history.  Actions are added for rewind, full rewind, fast-forward and full fast-forward.  Breakpoints are considered during travel.  Debugging states are maintained for all threads under a single launch even across inter-component communication.","deliverables":[{"target":"None","url":"None"}],"demonstration":{"url":"https://youtu.be/7VRcZoqGDfM"},"pledge_target":"72000","pledged":"5000","home":"https://github.com/FMAY-Software/xtUML-TimeTravelingDebugger","repository_name":"xtUML-TimeTravelingDebugger"}
+{
+	"owner": {
+		"first_name": "FMAY-Incubator",
+		"last_name": "",
+		"email": "travis.london@fmay.net",
+		"phone": "5203730727"
+	},
+	"email": "travis.london@gmail.com",
+	"name": "xtUML: Time Traveling Debugger",
+	"description": "This project brings functionality to xtUML verify that will allow traveling through debugging history.  Actions are added for rewind, full rewind, fast-forward and full fast-forward.  Breakpoints are considered during travel.  Debugging states are maintained for all threads under a single launch even across inter-component communication.",
+	"deliverables": [
+		{
+			"target": "None",
+			"url": "None"
+		}
+	],
+	"demonstration": {
+		"url": "https://youtu.be/7VRcZoqGDfM"
+	},
+	"pledge_target": "72000",
+	"pledged": "31000",
+	"home": "https://github.com/FMAY-Software/xtUML-TimeTravelingDebugger",
+	"repository_name": "xtUML-TimeTravelingDebugger"
+}
