@@ -18,10 +18,16 @@
 		"url": "https://youtu.be/7VRcZoqGDfM"
 	},
 	"pledge_target": "72000",
-	"pledged": "900",
+	"pledged": "1900",
 	"home": "https://github.com/FMAY-Software/xtUML-TimeTravelingDebugger",
 	"repository_name": "xtUML-TimeTravelingDebugger",
 	"pledgors": [
+		{
+			"id": "Myself",
+			"contact": "www.fmay.net",
+			"company": "FMAY Software",
+			"pledged": "1000"
+		},
 		{
 			"id": "Myself",
 			"contact": "www.fmay.net",
