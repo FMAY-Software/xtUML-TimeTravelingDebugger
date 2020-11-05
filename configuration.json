@@ -18,75 +18,8 @@
 		"url": "https://youtu.be/7VRcZoqGDfM"
 	},
 	"pledge_target": "72000",
-	"pledged": "38900",
+	"pledged": "0",
 	"home": "https://github.com/FMAY-Software/xtUML-TimeTravelingDebugger",
 	"repository_name": "xtUML-TimeTravelingDebugger",
-	"pledgors": [
-		{
-			"id": "Anonymous",
-			"pledged": "2000"
-		},
-		{
-			"id": "Myself",
-			"contact": "www.fmay.net",
-			"company": "FMAY Software",
-			"pledged": "35000"
-		},
-		{
-			"id": "Myself",
-			"contact": "www.fmay.net",
-			"company": "FMAY Software",
-			"pledged": "1000"
-		},
-		{
-			"id": "Myself",
-			"contact": "www.fmay.net",
-			"company": "FMAY Software",
-			"pledged": "100"
-		},
-		{
-			"id": "Myself",
-			"contact": "www.fmay.net",
-			"company": "FMAY Software",
-			"pledged": "100"
-		},
-		{
-			"id": "Myself",
-			"contact": "www.fmay.net",
-			"company": "FMAY Software",
-			"pledged": "100"
-		},
-		{
-			"id": "Myself",
-			"contact": "www.fmay.net",
-			"company": "FMAY Software",
-			"pledged": "100"
-		},
-		{
-			"id": "Myself",
-			"contact": "www.fmay.net",
-			"company": "FMAY Software",
-			"pledged": "100"
-		},
-		{
-			"id": "Anonymous",
-			"pledged": "100"
-		},
-		{
-			"id": "Travis London",
-			"contact": "travis.london@fmay.net",
-			"company": "FMAY Software",
-			"pledged": "200"
-		},
-		{
-			"id": "Travis London",
-			"contact": "travis.london@fmay.net",
-			"company": "FMAY Software",
-			"pledged": "200"
-		},
-		{
-			"id": "yGxP4iP60WS9Qj9sLuK6AynojH22",
-			"pledged": "100"
-		}
-	]
+	"pledgors": []
 }
